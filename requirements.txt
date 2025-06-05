@@ -1,0 +1,16 @@
+
+numpy
+
+numba
+
+opencv-python
+
+tqdm
+
+torch
+
+torchvision
+
+h5py
+
+editdistance
