@@ -2,6 +2,11 @@
 Provides options via the command line to perform project tasks.
 * `--source`: dataset/model name (bentham, iam, rimes, saintgall, washington)
 * `--transform`: transform dataset to the HDF5 file
+
+To transform the dataset to HDF5 file format, run:
+python main.py --source <dataset_name> --transform
+
+The dataset will be transformed to HDF5 file format and saved in the `data` directory.
 """
 from pathlib import Path
 
